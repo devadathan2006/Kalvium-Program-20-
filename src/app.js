@@ -34,6 +34,8 @@ function addFruit() {
 // - Uses the pop() method to remove the last fruit from the list.
 // - Call displayFruits() to show the updated list.
 function removeFruit() {
+    fruits.pop();
+    displayFruits();
 
 }
 
